@@ -1,4 +1,4 @@
-/* Box Model Hack */
+
 * {
     box-sizing: border-box;
   }
@@ -25,12 +25,12 @@
   body {
   
   }
-  /* Box Model Hack */
+   Box Model Hack 
 * {
     box-sizing: border-box;
   }
   
-  /* Clear fix hack */
+
   .clearfix:after {
        content: ".";
        display: block;
