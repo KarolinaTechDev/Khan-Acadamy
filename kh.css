@@ -1,0 +1,146 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+ 
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+  body {
+  
+  }
+  /* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+
+  /*******************************************/
+a{
+    text-decoration: none;
+    color: blue;
+}
+header{
+    border-bottom: solid lightgrey 1px;
+}
+  header nav{
+    width: 80% ;
+    margin: 0 auto;
+}
+
+  header nav ul {
+     display: block;
+     list-style-type:none;
+     padding:0 ;
+     margin: 0;
+     text-align: center;
+     width: 100%;
+ } 
+ header nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+
+ }
+header nav ul li.left{
+     float: left;
+}
+header nav ul li.right {
+    color: blue;
+    float: right;
+}
+header nav select,
+header nav input{
+    color: blue;
+}
+
+.pic{
+    margin-left:60px;
+    margin-top: 60px;
+    margin-right: 20px;
+    width: 40%;
+    float: left;
+}
+.pic img{
+    width: 100%;
+}
+.info{
+    float: left;
+    margin-top: 60px;
+    margin-right: 60px;
+    width: 40%;
+}
+ .info h1{
+    font-family:'PT Serif', serif;
+    font-size: 50px;
+    float: left;
+    
+ }
+.info p{
+    font-family:'PT Serif', serif;
+    font-size: 20px;
+}
+
+button{
+    background-color: blue;
+    margin: 0 5px ;
+    padding: 10px 10px;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+
+
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
+
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+
+
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
+
